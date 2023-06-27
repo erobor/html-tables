@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    font-family: sans-serif;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .logo {
+width: 30%;
+height: 100%;
+background: transparent;
+color: white;
+position: relative;
+padding: 15px 50px;
+}
+
+.header .nav {
+    width: 70%;
+    height: 100%;
+    color: white;
+    position: relative;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 12px;
+    }
+
+    .nav a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .nav a:hover {
+        color: yellow;
+        font-weight: 600;
+        border-bottom: 2px solid yellow;
+    }
+
+    .nav button {
+        width: 100px;
+        height: 30px;
+        background: green;
+        margin-left: 15px;
+        color: white;
+        outline: none;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+    }
+
+    .nav button:hover {
+        background-color: rgb(8, 197, 8);
+    }
+
+    .nav label {
+        margin-left: 20px;
+        color: greenyellow;
+        color: greenyellow;
+    }
+.introPage {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(235, 194, 194);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    background-image: url('../images/slide_02-loan\ blur.jpg');
+    background-size: cover;
+    
+}
+
+
+.section1A {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: first baseline;
+    padding: 0 40px;
+    margin: 0;
+}
+
+.section1A h2 {
+    font-size: 45px;
+    color: white;
+    background: green;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+
+.section1A h3 {
+    font-size: 45px;
+}
+
+.section1A p {
+    font-size: 20px;
+}
+
+.section1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.broadcastSection {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(17, 194, 111);
+    display: flex;
+}
+
+
+
+.section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    /* background: blue; */
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formA {
+    display: flex;
+    flex-direction: column;
+}
+
+.Form_input {
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.inputShorterBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 38px;
+    margin: 10px 0;
+
+}
+
+.inputShorter {
+    padding: 10px;
+    width: 49%;
+    height: inherit;
+}
+
+.btn {
+    width: 100%;
+    height: 40px;
+    background: green;
+    border: none;
+    color: white;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background: rgb(1, 44, 1);
+}
+
+.employment_Status {
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+    color: grey
+}
+
+.selector {
+    width: 50%;
+    background: red;
+    height: 35px;
+}
+.employment_Status option {
+    padding: 10px 0;
+    color: rgb(27, 27, 39);
+    
+}
+
+.checkerbox {
+    margin: 15px 0;
+}
+
+.formA label{
+    font-size: 13px;
+    color: black;
+}
+
+.footer {
+    width: 100%;
+    height: 45px;
+    background-color: rgb(7, 4, 4);
+    position: relative;
+}
